@@ -1,0 +1,111 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-rows: 60px 40px 500px 90px;
+    border: 1px solid red;
+    background-color: aquamarine;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 50px; */
+    align-items: center;
+    background-color:black;
+    color: white;
+}
+.header1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color:  black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px dotted blue;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.box11, .box12, .box13, .box14 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid red;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px dotted rgb(93, 93, 165);
+    background-color: rgb(32, 92, 183);
+    padding: 10px;
+}
+
+.box21, .box22, .box23, .box24 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid red;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+.box3 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    border: 1px dotted rgb(127, 136, 43);
+    background-color: rgb(7, 102, 107);
+    padding: 10px;
+}
+
+.box31, .box32, .box33, .box34 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid red;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    background-color:black;
+}
+
